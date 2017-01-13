@@ -14,8 +14,10 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <!--End of Zendesk Chat Script-->
     {% include nav.html %}
     {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
+    <!--
+        {% include portfolio_grid.html %}
+-->    
+{% include about.html %}
 
     {% if site.contact == "static" %}
     {% include contact_static.html %}
