@@ -62,7 +62,7 @@ address:
   - line: Seattle, WA 98133
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Hosted on <a href="https://pages.github.com/">GitHub</a>'
+credits: 'This theme (Freelancer) is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Hosted on <a href="https://pages.github.com/">GitHub</a>'
 
 # Build settings
 markdown: kramdown
