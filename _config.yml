@@ -39,20 +39,20 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Seattle 
+  location: Location 
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com
+  - title: 
+    url:
   - title: facebook
     url: https://www.facebook.com/StackTier
   - title: stack-overflow
     url: http://stackoverflow.com/users/3846962/user289394?tab=accounts
-  - title: bitbucket
-    url: http://bitbucket.org
+  - title: 
+    url: 
   - title: github
     url: http://github.com/StackTier
 
