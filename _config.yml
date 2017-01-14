@@ -54,8 +54,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 13517 Meridian Ave N  
-  - line: Seattle, WA 98133
+  - line:  
+  - line: Seattle, WA
 
 # Credits content
 credits: 'This theme (Freelancer) is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Hosted on <a href="https://pages.github.com/">GitHub</a>'
