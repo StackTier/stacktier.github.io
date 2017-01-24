@@ -51,6 +51,8 @@ social:
     url: http://stackoverflow.com/users/3846962/user289394?tab=accounts
   - title: github
     url: http://github.com/StackTier
+  - title: yelp
+    url: https://www.yelp.com/biz/stack-and-tier-seattle
 
 # Postal address (add as many lines as necessary)
 address:
