@@ -55,6 +55,8 @@ social:
     url: https://www.yelp.com/biz/stack-and-tier-seattle
   - title: check-square
     url: https://www.trustpilot.com/review/stacktier.github.io 
+  - title: envelope-o
+    url: karl@stacktier.org 
 
 # Postal address (add as many lines as necessary)
 address:
