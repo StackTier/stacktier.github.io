@@ -1,3 +1,5 @@
+This is a forked version of ...
+
 Freelancer Jekyll theme
 =========================
 
