@@ -59,6 +59,10 @@ social:
     url: mailto:karl@stacktier.org 
   - title: youtube
     url: https://www.youtube.com/channel/UCzALuSRJBxXK01wZXKndN5A
+      - title: fa-phone
+    url: http://www.anveo.com/contactme/small_call
+      - title: fa-comments
+    url: https://m.me/StackTier
 
 # Postal address (add as many lines as necessary)
 address:
