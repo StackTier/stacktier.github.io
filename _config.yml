@@ -43,7 +43,8 @@ footer:
   social: Around the Web
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) 
+# http://fontawesome.io
 social:
   - title: facebook
     url: https://www.facebook.com/StackTier
@@ -58,11 +59,14 @@ social:
   - title: envelope-o
     url: mailto:karl@stacktier.org 
   - title: youtube
-    url: https://www.youtube.com/channel/UCzALuSRJBxXK01wZXKndN5A
+    url: https://www.youtube.com/channel/UCPr4Rn5wPs1llVxnu8UiAMw
   - title: phone
     url: http://www.anveo.com/contactme/small_call
   - title: comments
     url: https://m.me/StackTier
+   - title: amazon
+    url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
+    
 
 # Postal address (add as many lines as necessary)
 address:
