@@ -48,8 +48,8 @@ footer:
 social:
   - title: facebook
     url: https://www.facebook.com/StackTier
-  - title: stack-overflow
-    url: http://stackexchange.com/users/3846962/user289394?tab=accounts
+#  - title: stack-overflow
+#    url: http://stackexchange.com/users/3846962/user289394?tab=accounts
   - title: github
     url: http://github.com/StackTier
   - title: yelp
