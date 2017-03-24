@@ -44,9 +44,7 @@ footer:
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) 
-# http://fontawesome.io
-
-
+# http://fontawesome.io/icons/
 social:
   - title: facebook
     url: https://www.facebook.com/StackTier
@@ -64,14 +62,15 @@ social:
     url: http://www.anveo.com/contactme/small_call
   - title: comments
     url: https://m.me/StackTier
-   - title: fa-amazon
+  - title: fa-amazon
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
-   - title: stack-overflow
+  - title: stack-overflow
     url: http://stackexchange.com/users/3846962/user289394?tab=accounts
-   - title: fa-amazon
+  - title: fa-amazon
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
- - title: shopping-cart
-    url: http://astore.amazon.com/stacktier0f-20   
+  - title: shopping-cart
+    url: http://astore.amazon.com/stacktier0f-20
+    
 # - title: 
 #    url:
 
