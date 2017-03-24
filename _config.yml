@@ -45,13 +45,11 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) 
 # http://fontawesome.io
-#  - title: stack-overflow
-#    url: http://stackexchange.com/users/3846962/user289394?tab=accounts
+
 
 social:
   - title: facebook
     url: https://www.facebook.com/StackTier
-
   - title: github
     url: http://github.com/StackTier
   - title: yelp
@@ -66,9 +64,16 @@ social:
     url: http://www.anveo.com/contactme/small_call
   - title: comments
     url: https://m.me/StackTier
-   - title: amazon
+   - title: fa-amazon
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
-    
+   - title: stack-overflow
+    url: http://stackexchange.com/users/3846962/user289394?tab=accounts
+   - title: fa-amazon
+    url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
+ - title: shopping-cart
+    url: http://astore.amazon.com/stacktier0f-20   
+# - title: 
+#    url:
 
 # Postal address (add as many lines as necessary)
 address:
