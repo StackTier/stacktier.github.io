@@ -45,6 +45,7 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) 
 # http://fontawesome.io/icons/
+# linkedin.com/company/stack&tier
 social:
   - title: facebook
     url: https://www.facebook.com/StackTier
@@ -68,7 +69,8 @@ social:
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
   - title: shopping-cart
     url: http://astore.amazon.com/stacktier0f-20
-    
+  - title: google
+    url: https://search.google.com/local/writereview?placeid=ChIJC-XORTkRkFQRncXHUeHSXws
 # - title: 
 #    url:
 
