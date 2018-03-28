@@ -60,16 +60,16 @@ social:
     url: mailto:karl@stacktier.org 
   - title: youtube
     url: https://www.youtube.com/channel/UCPr4Rn5wPs1llVxnu8UiAMw
-  - title: phone
-    url: http://www.anveo.com/contactme/small_call
+#  - title: phone
+#    url: http://www.anveo.com/contactme/small_call
   - title: comments
     url: https://m.me/StackTier
   - title: stack-overflow
     url: http://stackexchange.com/users/3846962/user289394?tab=accounts
   - title: amazon
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7
-  - title: shopping-cart
-    url: http://astore.amazon.com/stacktier0f-20
+# - title: shopping-cart
+#  url: http://astore.amazon.com/stacktier0f-20
   - title: google
     url: https://search.google.com/local/writereview?placeid=ChIJC-XORTkRkFQRncXHUeHSXws
   - title: briefcase
