@@ -45,10 +45,10 @@ footer:
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) 
-# http://fontawesome.io/icons/
+# https://fontawesome.com/v4.7.0/icon
 # linkedin.com/company/stack&tier
 social:
- - title: fas fa-thumbtack
+ - title: thumb-tack
     url: www.thumbtack.com/biz/karl-erdmann-general-contractor-sole-proprietor
  - title: amazon
     url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7 
@@ -56,7 +56,7 @@ social:
     url: http://stackexchange.com/users/3846962/user289394?tab=accounts
  - title: google
     url: https://search.google.com/local/writereview?placeid=ChIJC-XORTkRkFQRncXHUeHSXws
- - title: fas fa-angle-up
+ - title: angle-up
     url: https://porch.com/seattle-wa/handymen/stack-and-tier/pp
  - title: facebook
     url: https://www.facebook.com/StackTier
