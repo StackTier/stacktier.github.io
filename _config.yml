@@ -56,8 +56,8 @@ social:
     url: http://stackexchange.com/users/3846962/user289394?tab=accounts
  - title: google
     url: https://search.google.com/local/writereview?placeid=ChIJC-XORTkRkFQRncXHUeHSXws
- - title: angle-up
-    url: https://porch.com/seattle-wa/handymen/stack-and-tier/pp
+# - title: angle-up
+#    url: https://porch.com/seattle-wa/handymen/stack-and-tier/pp
  - title: facebook
     url: https://www.facebook.com/StackTier
  - title: github
