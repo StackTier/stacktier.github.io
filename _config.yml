@@ -2,14 +2,15 @@
 title: Stack & Tier 
 email: karl@stacktier.org
 url: https://stacktier.org/
-description: "-General consulting in information systems & technology (IoT or EoT) infrastructure planning, 1-on-1 training.
--Hardware and Software setup & support (mainly in PC environments); hardware troubleshooting, software maintenance and testing, security, encryption, backup, and recovery.
--Network troubleshooting, setup, and maintenance.
--Smart home planning, techniques, technologies, setup, maintenance, etc.
--Software multi tenancy implementation, PaaS and network distributed versioning control implementation and auto deployment. Web development, static to dynamic sites,project hosting, API integration.
--Productivity tools; information process flow diagramming & analysis, charting & report development and solutions, local and cloud organization solutions, data collection, virtual network computing, SEO, Adwords, Google Developer Products (Charts, Scripts, Analytics, etc), mail digitization, e-commerce, financial services, authentication.
--Consumer entertainment: media management solutions, network distributed DLNA hardware, DVR software, matrix switch setup.
-"
+description: "Stack & Tier is a Washington State general contractor (STACKT*827B5) with a focus on residential and commercial repairs and renovations and is structured as a sole proprietorship."
+#-General consulting in information systems & technology (IoT or EoT) infrastructure planning, 1-on-1 training.
+#-Hardware and Software setup & support (mainly in PC environments); hardware troubleshooting, software maintenance and testing, security, encryption, backup, and recovery.
+#-Network troubleshooting, setup, and maintenance.
+#-Smart home planning, techniques, technologies, setup, maintenance, etc.
+#-Software multi tenancy implementation, PaaS and network distributed versioning control implementation and auto deployment. Web development, static to dynamic sites,project hosting, API integration.
+#-Productivity tools; information process flow diagramming & analysis, charting & report development and solutions, local and cloud organization solutions, data collection, virtual network computing, SEO, Adwords, Google Developer Products (Charts, Scripts, Analytics, etc), mail digitization, e-commerce, financial services, authentication.
+#-Consumer entertainment: media management solutions, network distributed DLNA hardware, DVR software, matrix switch setup.
+
 #  Hardware & Systems Consulting, Design, Planning, Deployment and Support."
 skills: "Handyperson, Entertainment & Security Systems - Consulting, Deployment, & Support."
 meta_author: Erdmannn Karl
@@ -85,7 +86,7 @@ social:
 address:
   - line: Mobile 425.205.9526
   - line: Office 206.929.5999
-  - line: 13517 Meridian Ave N
+  - line: Meridian Ave N
   - line: Seattle, WA
 
 # Credits content
