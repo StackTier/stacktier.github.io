@@ -49,22 +49,24 @@ footer:
 # https://fontawesome.com/v4.7.0/icon
 # linkedin.com/company/stack&tier
 social:
- - title: thumb-tack
-   url: https://www.thumbtack.com/biz/karl-erdmann-general-contractor-sole-proprietor
  - title: amazon
-   url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7 
+   url: https://www.amazon.com/localservices/ya/sellerprofile/ref=vas_sc_spp_A3626NNLQCERB7?sellerID=A3626NNLQCERB7  
+ - title: facebook
+   url: https://www.facebook.com/StackTier
+ - title: instagram
+   url: https://www.instagram.com/stacktier/
+ - title: yelp
+   url: https://www.yelp.com/biz/stack-and-tier-seattle
+- title: thumb-tack
+   url: https://www.thumbtack.com/biz/karl-erdmann-general-contractor-sole-proprietor
  - title: stack-overflow
    url: http://stackexchange.com/users/3846962/user289394?tab=accounts
  - title: google
    url: https://search.google.com/local/writereview?placeid=ChIJC-XORTkRkFQRncXHUeHSXws
  - title: angle-up
    url: https://porch.com/seattle-wa/handymen/stack-and-tier/pp
- - title: facebook
-   url: https://www.facebook.com/StackTier
  - title: github
    url: http://github.com/StackTier
- - title: yelp
-   url: https://www.yelp.com/biz/stack-and-tier-seattle
  - title: check-square
    url: https://www.trustpilot.com/review/stacktier.github.io 
  - title: envelope-o
