@@ -21,7 +21,8 @@
 <script src="https://js.stripe.com/v3"></script>
 
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<p align="center"> Difficulties with Scheduling Appointment Forms? Request an appointment and click the following buttom to submit deposit:
+<p align="center"> Difficulties with Appointment Form / Scheduling Application? Request an appointment and click the following buttom to submit deposit:
+    <br>
     <br>
     <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
@@ -49,8 +50,8 @@
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'http://stacktier.org/success',
-      cancelUrl: 'http://stacktier.org/canceled',
+      successUrl: 'http://stacktier.org',
+      cancelUrl: 'http://stacktier.org',
     })
     .then(function (result) {
       if (result.error) {
