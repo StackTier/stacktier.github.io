@@ -50,46 +50,59 @@ cursor: pointer;
               Still having difficulties booking an <a  style="color: #2c3e50" href="https://stack-tier.square.site/" target="_blank"> appointment</a>? Please request an appointment via telephone/email/text and click the following button to submit an appointment commitment deposit:
     <br>
     <br>
-    <button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+              
+    <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
   id="checkout-button-sku_FSYFsQJI9i845K"
-  role="link"  target="_blank"
+  role="link"
+  type="button"
 >
   Checkout
 </button>
-            </p>
 
 <div id="error-message"></div>
 
 <script>
+(function() {
   var stripe = Stripe('pk_live_qke6eSmUtvRpOYpU40Q4bD6d');
 
   var checkoutButton = document.getElementById('checkout-button-sku_FSYFsQJI9i845K');
   checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
+    /*
+     * When the customer clicks on the button, redirect
+     * them to Checkout.
+     */
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_FSYFsQJI9i845K', quantity: 1}],
-
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'http://stacktier.org',
-      cancelUrl: 'http://stacktier.org',
+      lineItems: [{price: 'sku_FSYFsQJI9i845K', quantity: 1}],
+      mode: 'payment',
+      /*
+       * Do not rely on the redirect to the successUrl for fulfilling
+       * purchases, customers may not always reach the success_url after
+       * a successful payment.
+       * Instead use one of the strategies described in
+       * https://stripe.com/docs/payments/checkout/fulfill-orders
+       */
+      successUrl: 'http://stacktier.org/success',
+      cancelUrl: 'http://stacktier.org/canceled',
     })
     .then(function (result) {
       if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
+        /*
+         * If `redirectToCheckout` fails due to a browser or network
+         * error, display the localized error message to your customer.
+         */
         var displayError = document.getElementById('error-message');
         displayError.textContent = result.error.message;
       }
     });
   });
+})();
 </script>
-
+             
         </div>
             </div>
            
