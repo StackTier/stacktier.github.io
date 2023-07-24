@@ -10,8 +10,6 @@
     <div class="leadmonk-inline-widget" data-url="https://ldmk.io/stacktier_714?hideLogo=true&pagebackground=0xffffff" style="min-width:340px;height:630px;"></div>
     <script type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/leadmonk-prod.appspot.com/o/leadmonk%2Fembed%2Fleadmonk_widget.js?alt=media" async></script>
  <!-- Leadmonk inline widget end -->
-        e="text/javascript">window.onload = function() { Leadmonk.initBadgeWidget({ url: 'https://web.leadmonk.io/stacktier_714?hideLogo=true', text: 'Book Now', color: '#245BAE', textColor: '#ffffff', branding: false }); }</script>
-<!-- Leadmonk bad         
                             
 <p>
              <br>
@@ -23,61 +21,58 @@
                  <br>
                  <br>
 </p>
-    <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+                                   <!-- Load Stripe.js on your website. -->
+                               <script src="https://js.stripe.com/v3"></script>
+                               
+                               <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                               <button
+                                 style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+                                 id="checkout-button-sku_FSYFsQJI9i845K"
+                                 role="link"
+                                 type="button"
+                               >
+                                 Checkout
+                               </button>
+                               
+                               <div id="error-message"></div>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button-sku_FSYFsQJI9i845K"
-  role="link"
-  type="button"
->
-  Checkout
-</button>
-
-<div id="error-message"></div>
-
-<script>
-(function() {
-  var stripe = Stripe('pk_live_qke6eSmUtvRpOYpU40Q4bD6d');
-
-  var checkoutButton = document.getElementById('checkout-button-sku_FSYFsQJI9i845K');
-  checkoutButton.addEventListener('click', function () {
-    /*
-     * When the customer clicks on the button, redirect
-     * them to Checkout.
-     */
-    stripe.redirectToCheckout({
-      lineItems: [{price: 'sku_FSYFsQJI9i845K', quantity: 1}],
-      mode: 'payment',
-      /*
-       * Do not rely on the redirect to the successUrl for fulfilling
-       * purchases, customers may not always reach the success_url after
-       * a successful payment.
-       * Instead use one of the strategies described in
-       * https://stripe.com/docs/payments/checkout/fulfill-orders
-       */
-      successUrl: 'https://stacktier.org',
-      cancelUrl: 'https://stacktier.org',
-    })
-    .then(function (result) {
-      if (result.error) {
-        /*
-         * If `redirectToCheckout` fails due to a browser or network
-         * error, display the localized error message to your customer.
-         */
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>        
-                 </p>
-                 
-                             
-             </div> 
+                               <script>
+                               (function() {
+                                 var stripe = Stripe('pk_live_qke6eSmUtvRpOYpU40Q4bD6d');
+                               
+                                 var checkoutButton = document.getElementById('checkout-button-sku_FSYFsQJI9i845K');
+                                 checkoutButton.addEventListener('click', function () {
+                                   /*
+                                    * When the customer clicks on the button, redirect
+                                    * them to Checkout.
+                                    */
+                                   stripe.redirectToCheckout({
+                                     lineItems: [{price: 'sku_FSYFsQJI9i845K', quantity: 1}],
+                                     mode: 'payment',
+                                     /*
+                                      * Do not rely on the redirect to the successUrl for fulfilling
+                                      * purchases, customers may not always reach the success_url after
+                                      * a successful payment.
+                                      * Instead use one of the strategies described in
+                                      * https://stripe.com/docs/payments/checkout/fulfill-orders
+                                      */
+                                     successUrl: 'https://stacktier.org',
+                                     cancelUrl: 'https://stacktier.org',
+                                   })
+                                   .then(function (result) {
+                                     if (result.error) {
+                                       /*
+                                        * If `redirectToCheckout` fails due to a browser or network
+                                        * error, display the localized error message to your customer.
+                                        */
+                                       var displayError = document.getElementById('error-message');
+                                       displayError.textContent = result.error.message;
+                                     }
+                                   });
+                                 });
+                               })();
+                               </script>        
+                
         </div>
             </div>
            
