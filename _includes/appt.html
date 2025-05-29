@@ -10,10 +10,6 @@
 <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ35WR0vtkxIvD-sk3iE8JU5xbLxRHyHgRckuGy3_lEk7BcQ_a-Am6ZHHgUd13v_xUoqwx9kZdcv?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 <!-- end Google Calendar Appointment Scheduling -->
 
-                 <!-- Google Calendar Appointment Scheduling begin 2hr -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2FGN6qW3OqkWa--aPdB_bamlwnCdzw4XmPOa4mHAa3Qa4Ubs5FKmnBfTeQ3whCLqYNni42x4RX?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
-
                  <!-- Google Calendar Appointment Scheduling begin -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
 <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
@@ -24,7 +20,25 @@
     calendar.schedulingButton.load({
       url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2FGN6qW3OqkWa--aPdB_bamlwnCdzw4XmPOa4mHAa3Qa4Ubs5FKmnBfTeQ3whCLqYNni42x4RX?gv=true',
       color: '#0B8043',
-      label: 'Book an appointment',
+      label: 'Book a 2 hour appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+                 <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ25pHfETY9BuCazl6efewCBACEyhFPFMoBKjujTfv-g1jmoqCrAKjC5dmf1trdXluI2dxsbZE8A?gv=true',
+      color: '#039BE5',
+      label: 'Book a 3 hour appointment',
       target,
     });
   });
